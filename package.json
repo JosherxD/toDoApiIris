@@ -1,0 +1,40 @@
+{
+  "name": "api_tasks",
+  "version": "1.0.0",
+  "description": "Proyecto iris ToDo",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/application",
+    "dev": "nodemon dist/application",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.623.0",
+    "@aws-sdk/credential-providers": "^3.623.0",
+    "@aws-sdk/lib-dynamodb": "^3.623.0",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
